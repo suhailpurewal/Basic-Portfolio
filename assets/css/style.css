@@ -1,4 +1,34 @@
-header {
+#name {
 	background-color: #4aaaa5;
 	color: white;
+	display: block;
+	width: 240px;
+	height: 50px;
+	position: relative;
+	left: 40px;
+	text-align: center;
+	padding-top: 20px;
+}
+#about {
+	color: #4aaaa5;
+}
+p {
+	color: #777777;
+}
+#main-bio {
+	display: block;
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	float: left;
+	padding-left: 20px;
+}
+#bio-image {
+	float: left;
+}
+#contact-info {
+	float: right;
+	position: relative;
+	left: -60px;
+	top: 100px;
 }
