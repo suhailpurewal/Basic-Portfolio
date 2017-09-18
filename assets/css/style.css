@@ -57,7 +57,7 @@ p {
 }
 /*Body - background image*/
 body {
-	background-image: url("../images/escheresque_ste.png");
+	background-image: url("../images/hypnotize.png");
 }
 /*footer*/
 footer {
@@ -89,7 +89,7 @@ footer {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: transparent;
 }
 
 /* Style the topnav links */
@@ -100,6 +100,7 @@ footer {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: transparent;
 }
 
 /* Change color on hover */
