@@ -1,3 +1,4 @@
+/* teal name */
 #name {
 	background-color: #4aaaa5;
 	color: white;
@@ -9,12 +10,15 @@
 	text-align: center;
 	padding-top: 20px;
 }
+/*about heading*/
 #about {
 	color: #4aaaa5;
 }
+/*bio paragraph*/
 p {
 	color: #777777;
 }
+/*bio block*/
 #main-bio {
 	display: block;
 	background-color: white;
@@ -25,30 +29,61 @@ p {
 	margin-left: 75px; 
 	margin-right:75px;
 }
+/*top line*/
+#top-line {
+	border-color: red;
+	border-width: 2px;
+	position: relative;
+	top: -66px;
+}
+/*bio pic*/
 #bio-image {
 	float: left;
 }
+/*contact info box*/
 #contact-info {
 	color: #4aaaa5;
 	float: right;
+	display: block;
+	background-color: white;
+	size: 250px;
 	position: relative;
 	left: -60px;
 	top: 100px;
 }
+/*links in contact box*/
 #links {
 	color: #777777;
 }
+/*Body - background image*/
 body {
 	background-image: url("../images/escheresque_ste.png");
+}
+/*footer*/
+footer {
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	bottom: -45px;
+	clear: both;
+	color: white;
+	display: block;
+	height: 15px;
+	width: 100%;
+	background-color: grey;
+	padding-top: 15px;
 }
 /* Style the header */
 .header {
     background-color: white;
     color: black;
-    padding: 20px;
-    text-align: center;
+    height: 35px;
+    width: 187px;
+    padding: 0px;
+    text-align: right;
     position: relative;
-    top: 20px;
+    top: -67px;
+    left: 665px;
 }
 
 /* Style the top navigation bar */
@@ -69,5 +104,5 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #4aaaa5;
     color: black;
