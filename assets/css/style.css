@@ -54,6 +54,19 @@ p {
 /*links in contact box*/
 #links {
 	color: #777777;	
+	padding-left: 50px;
+	padding-top: 20px;
+}
+#linkedin {
+	float: left;
+
+}
+#github {
+	float: left;
+}
+#stackoverflow {
+	float: left;
+
 }
 /*Body - background image*/
 body {
