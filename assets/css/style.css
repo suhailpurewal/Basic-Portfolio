@@ -47,13 +47,13 @@ p {
 	display: block;
 	background-color: white;
 	size: 250px;
-	position: relative;
-	left: -60px;
-	top: 100px;
+	position: absolute;
+	right: 180px;
+	top: 200px;
 }
 /*links in contact box*/
 #links {
-	color: #777777;
+	color: #777777;	
 }
 /*Body - background image*/
 body {
@@ -73,12 +73,16 @@ footer {
 	background-color: grey;
 	padding-top: 15px;
 }
+#linkedin
+{
+	size: 75px 75px 75px 75px;
+}
 /* Style the header */
 .header {
     background-color: white;
     color: black;
     height: 35px;
-    width: 187px;
+    width: 250px;
     padding: 0px;
     text-align: right;
     position: relative;
