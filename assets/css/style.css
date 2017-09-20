@@ -9,7 +9,7 @@
 	left: 75px;
 	text-align: center;
 	padding-top: 20px;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -26,19 +26,20 @@
 	color: #4aaaa5;
 	font-weight: bold;
 	font-size: 30px;
-	padding-top: 15px;
+	padding-top: 25px;
 	padding-bottom: 15px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 /*bio paragraph*/
 p {
 	color: #777777;
+	line-height: 30px;
 }
 /*bio block*/
 #main-bio {
 	display: block;
 	background-color: white;
-	width: 520px;
+	width: 650px;
 	height: 475px;
 	padding-left: 20px;
 	margin-left: 75px; 
@@ -56,6 +57,14 @@ p {
 	/* position: relative; */
 	/* top: -46px; */
 }
+#aboutline {
+	width: 95%;
+	margin-left: 0px;
+}
+#connectline {
+	width: 75%;
+	margin-left: 30px;
+}
 /*bio pic*/
 #bio-image {
 	float: left;
@@ -68,11 +77,11 @@ p {
 	display: block;
 	font-size: 20px;
 	background-color: white;
-	height: 150px;
-	width: 250px;
+	height: 200px;
+	width: 268px;
 	position: relative;
-	right: -715px;
-	top: -450px;
+	right: -796px;
+	top: -477px;
 	border-style: solid;
 	border-color: #cccccc;
 	border-width: 1px;
@@ -81,37 +90,39 @@ p {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 #connectwme {
-	padding-top: 10px;
+	padding-top: 33px;
+	padding-bottom: 15px;
 }
 /*links in contact box*/
 #links {
 	color: #777777;	
 	/* padding-left: 50px; */
-	/* padding-top: 25px; */
+	padding-top: 15px;
 	margin-left: 2px;
 }
 #linkedin {
 	float: left;
-	padding-left: 20px;
+	padding-left: 30px;
 
 }
 #github {
 	float: left;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 #stackoverflow {
 	float: left;
-	padding-left: 20px;
+	padding-left: 10px;
+	width: 60px;
+	height: 60px;
 
 }
 /*Body - background image*/
 body {
-	background-image: url("../images/hypnotize.png");
+	background-image: url("../images/paper.png");
 }
 /*footer*/
 footer {
 	text-align: center;
-	padding: 10px;
 	position: relative;
 	bottom: -45px;
 	clear: both;
@@ -122,8 +133,9 @@ footer {
 	background-color: grey;
 	padding-top: 15px;
 	border-top-style: solid;
-	border-width: 5px;
+	border-width: 7px;
 	border-color: #4aaaa5;
+	font-size: 11px;
 }
 #linkedin
 {
@@ -133,20 +145,19 @@ footer {
 .header {
     background-color: white;
     color: black;
-    height: 35px;
-    width: 265px;
     padding: 0px;
+    width: 0%;
     text-align: right;
     position: relative;
-    top: -40px;
+    top: -58px;
     left: 665px;
 }
-
 /* top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: transparent;
-    width: 300px;
+    width: 320px;
+    margin-left: 145px;
 }
 
 /* topnav links */
@@ -154,10 +165,11 @@ footer {
     float: left;
     display: block;
     color: #777777;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 10px 16px;
+    padding: 10px 5px;
+    padding-right: 32px;
     text-decoration: none;
     background-color: transparent;
 }
