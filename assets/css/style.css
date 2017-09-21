@@ -232,7 +232,7 @@ footer {
 	width: 268px;
 	position: relative;
 	right: -796px;
-	top: -752px;
+	top: -804px;
 	border-style: solid;
 	border-color: #cccccc;
 	border-width: 1px;
@@ -241,100 +241,127 @@ footer {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 #hangman {
-    padding-right: 50px;
-    padding-top: 25px;
-    padding-left: 10px;
-    z-index: -1;
     position: relative;
+    float: left;
+    padding: 20px;
 }
 #triviagame {
-	z-index: -1;
 	position: relative;
+	float: left;
+	padding: 20px;
 
 }
 #rockpaper {    
-	padding-right: 50px;
-    padding-top: 25px;
-    padding-left: 10px;
-    z-index: -1;
     position: relative;
+    float: left;
+    padding: 20px;
 }
 #rutgers {
-	z-index: -1;
 	position: relative;
+	float: left;
+	padding: 20px;
 
 }
 #rpg {    
-	padding-right: 50px;
-    padding-top: 25px;
-    padding-left: 10px;
-    z-index: -1;
     position: relative;
+    float: left; 
+    padding: 20px;
 }
 
 #bhangman{	
 	background-color: #4aaaa5;
 	color: white;
 	display: block;
-	width: 100px;
+	width: 275px;
 	height: 50px;
+	margin-left: 25px;
+	position: absolute;
+	top: 160px;
+	left: -5px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	z-index: 2;
 
 }
 #btrivia{	
 	background-color: #4aaaa5;
 	color: white;
 	display: block;
-	width: 100px;
+	width: 275px;
 	height: 50px;
+	position: absolute;
+	top: 160px;
+	right: 40px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	z-index: 2;
 
 }
 #brock {	
 	background-color: #4aaaa5;
 	color: white;
 	display: block;
-	width: 100px;
+	width: 275px;
 	height: 50px;
+	position: absolute;
+	top: 395px;
+	left: 20px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	z-index: 2;
 
 }
 #brutgers {	
 	background-color: #4aaaa5;
 	color: white;
 	display: block;
-	width: 100px;
+	width: 275px;
 	height: 50px;
+	position: absolute;
+	top: 395px;
+	right: 40px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	z-index: 2;
 
 }
 #brpg {	
 	background-color: #4aaaa5;
 	color: white;
 	display: block;
-	width: 100px;
+	width: 275px;
 	height: 50px;
+	position: absolute;
+	top: 635px;
+	left: 20px;
 	text-align: center;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	z-index: 2;
+
+}
+.divhangman {
+	position: relative;
+
+}
+.divtrivia {
+	position: relative;
+
+}
+.divrock {
+	position: relative;
+
+}
+.divrut {
+	position: relative;
+
+}
+.divrpg {
+	position: relative;
 
 }
 
