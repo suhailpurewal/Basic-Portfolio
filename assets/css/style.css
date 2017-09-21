@@ -142,7 +142,7 @@ footer {
 {
 	size: 75px 75px 75px 75px;
 }
-/* Style the header */
+/* header style*/
 .header {
     background-color: white;
     color: black;
@@ -180,3 +180,164 @@ footer {
 .topnav a:hover {
     background-color: #4aaaa5;
     color: black;
+}
+/*CONTACT ME PAGE*/
+
+.contactform {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#nameform {
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#emailform {
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#messageform {
+	width: 600px;
+	height: 210px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Portfolio Page*/
+#portfolio {
+	display: block;
+	background-color: white;
+	width: 650px;
+	height: 800px;
+	padding-left: 20px;
+	margin-left: 75px; 
+	margin-right:75px;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	z-index: -2;
+}
+#portcontact {
+	color: #4aaaa5;
+	display: block;
+	font-size: 20px;
+	background-color: white;
+	height: 200px;
+	width: 268px;
+	position: relative;
+	right: -796px;
+	top: -752px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#hangman {
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+    z-index: -1;
+    position: relative;
+}
+#triviagame {
+	z-index: -1;
+	position: relative;
+
+}
+#rockpaper {    
+	padding-right: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+    z-index: -1;
+    position: relative;
+}
+#rutgers {
+	z-index: -1;
+	position: relative;
+
+}
+#rpg {    
+	padding-right: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+    z-index: -1;
+    position: relative;
+}
+
+#bhangman{	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+
+}
+#btrivia{	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+
+}
+#brock {	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+
+}
+#brutgers {	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+
+}
+#brpg {	
+	background-color: #4aaaa5;
+	color: white;
+	display: block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+
+}
+
+
+
+
