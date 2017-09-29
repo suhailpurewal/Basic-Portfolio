@@ -43,7 +43,7 @@ p {
 	display: block;
 	background-color: white;
 	width: 650px;
-	height: 485px;
+	height: 550px;
 	padding-left: 20px;
 	margin-left: 75px; 
 	margin-right:75px;
@@ -73,6 +73,8 @@ p {
 	float: left;
 	margin-right: 15px;
 	margin-top: 5px;
+	width: 235px;
+	height: 200px;
 }
 /*contact info box*/
 #contact-info {
